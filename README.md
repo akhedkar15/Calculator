@@ -1,2 +1,2 @@
 # Calculator
-Author : Anushka Khedkar (hello)
+Author : Anushka Khedkar 
