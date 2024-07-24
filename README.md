@@ -1,1 +1,2 @@
 # Calculator
+Author : Anushka Khedkar
