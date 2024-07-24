@@ -7,8 +7,8 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center; /* Center content vertically */
-    height: 100vh; /* Full viewport height */
+    justify-content: center; 
+    height: 100vh; 
     overflow: hidden;
     background-size: cover;
     background-position: center;
@@ -48,7 +48,7 @@ h2 {
     margin: 20px;
     width: 350px;
     max-width: 100%;
-    display: flex; /* Center content inside the calculator */
+    display: flex; 
     flex-direction: column;
     align-items: center;
 }
@@ -62,16 +62,16 @@ h2 {
     text-align: right;
     margin-bottom: 20px;
     box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.3);
-    width: 100%; /* Ensure display takes full width of the calculator */
-    box-sizing: border-box; /* Include padding in width calculation */
+    width: 100%;
+    box-sizing: border-box; 
 }
 
 .buttons {
     display: grid;
     grid-template-columns: repeat(4, 1fr); 
     gap: 10px;
-    width: 100%; /* Ensure buttons take full width of the calculator */
-    box-sizing: border-box; /* Include padding in width calculation */
+    width: 100%;
+    box-sizing: border-box; 
 }
 
 .btn {
@@ -84,10 +84,10 @@ h2 {
     display: flex;
     justify-content: center;
     align-items: center;
-    aspect-ratio: 1; /* Ensures buttons are square */
-    width: 100%; /* Ensure buttons take full width of their grid cell */
-    box-sizing: border-box; /* Include padding in width calculation */
-    height: 80px; /* Set a fixed height for the buttons */
+    aspect-ratio: 1; 
+    width: 100%;
+    box-sizing: border-box; 
+    height: 80px; 
 }
 
 .number {
@@ -115,7 +115,7 @@ h2 {
 }
 
 .zero {
-    grid-column: span 2; /* Span two columns for the zero button */
+    grid-column: span 2; 
 }
 
 .btn:hover {
